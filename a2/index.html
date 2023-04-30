@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Personal Website</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+  .container {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    
+    margin-left:-20px;
+  }
+  .container .content {
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    width: 1595px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: beige;
+    text-align: center;
+  }
+  .marquee{
+    font-size: 30px;
+    font-weight: 800;
+    color: #92d42e;
+    font-family: sans-serif;
+  }  
+  .container h1{
+    margin-left: 200px;
+  }
+  .container p{
+    margin-left: 200px;
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+
+  .fa-facebook {
+    color: rgb(35, 14, 155);
+  }
+  .fa-twitter {
+    color: #55acee;
+   
+  }
+  .fa-instagram {
+    color: rgb(235, 83, 169);
+  }
+  .fa-github{
+    color: black;
+  }
+  .container2 p{
+    margin-left: 50px;
+  }
+  .text-right{
+    margin-right: 40px;
+  }
+  .card-title img{
+    height: 50px;
+    width: 50px;
+  }
+  </style>
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <h3 style="color: white;">MY PERSONAL WEBSITE</h3>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Personalities.html">Favorite Personalities</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Cities.html">Favorite Cities</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Tourist.html">Favorite Tourist Spots</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="carousel-inner">
+    <div class="container">
+      <img src="back.jpg" alt="background" style="width: 1353px;">
+      <div class="content">
+        <h1>Hi. I'm WAINA</h1>
+        <div class="marquee">
+          <marquee behaviour="scroll", direction="left">Welcome to My Personal Website</marquee>
+        </div>
+        <p>I am a web developer with experience in designing, building, and maintaining websites.</p> 
+        <p> I have expertise in front-end technologies such as HTML, CSS, and JavaScript, and I am also familiar with server-side programming languages like PHP and Python.</p> 
+        <p>  I am dedicated to staying up-to-date with the latest web development trends and technologies to provide the best solutions to my clients.</p>
+      </div>
+    </div> 
+  </div>
+
+  <div class="container1 mt-5">
+    <div class="row">
+          <div class="col-md-4 mb-4">
+      <div class="card">
+        <div class="card-body">
+          <h3 class="card-title">Personal Information <img src="personal-information.png" alt="Personal Information"></h3>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Name: Waina Gillani</li>
+            <li class="list-group-item">Age: 19</li>
+            <li class="list-group-item">Location: Lahore </li>
+            <li class="list-group-item">Email: wainagillani2003@gmail.com</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <div class="card-body">
+          <h3 class="card-title">Skills <img src="Skills.png" alt="Skills"></h3>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Programming Languages: Java, Python, JavaScript</li>
+            <li class="list-group-item">Web Development: HTML, CSS, Bootstrap, React</li>
+            <li class="list-group-item">Database Management: SQL, MongoDB</li>
+            <li class="list-group-item">Other: Git, Linux, Docker</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <div class="card-body">
+          <h3 class="card-title">Hobbies <img src="hobby.png" alt="Hobbies"></h3>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Cooking and baking</li>
+            <li class="list-group-item">Reading Novels</li>
+            <li class="list-group-item">Watching Movies</li>
+            <li class="list-group-item">Traveling</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<footer class="bg-dark text-light py-3">
+  <div class="container2">
+    <div class="row">
+      <div class="col-md-6">
+        <p>&copy; 2023 My Website. All rights reserved.</p>
+      </div>
+      <div class="col-md-6">
+        <p class="text-right">Designed by Me</p>
+      </div>
+      <div class="social-icons">
+          <a href="https://www.facebook.com/Syeda.Waina.Gillani/"><i class="fa fa-facebook-f"></i></a>
+          <a href="https://github.com/wai-ina"><i class="fa fa-github"></i></a>
+          <a href="https://instagram.com/_wai_ina_?igshid=MWQ2ODkyMjM="><i class="fa fa-instagram"></i></a>
+          <a href="https://twitter.com/GillaniWaina"><i class="fa fa-twitter"></i></a>
+      </div>
+        
+    </div>
+  </div>
+</footer>
+
+
+</body>
+</html>
